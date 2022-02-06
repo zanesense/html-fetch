@@ -33,8 +33,8 @@ else:
 
 f = open("proxies.json","r")
 proxies = json.load(f)
-
 use_proxy = input(info("Use proxy? (y/n)\n>> "))
+
 def get_html():
     if use_proxy == "y":
         r=requests.get(finalurl, proxies=proxies)
