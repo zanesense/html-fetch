@@ -3,7 +3,7 @@
 **Note:** 
 You'll need to edit the proxies.json file and use any http proxies that you have.
 
-Go to https://free-proxy-cz/en/ and grab some freebies.
+Go to http://free-proxy.cz/en/ and grab some freebies.
 ```
 > git clone https://github.com/zanesense/html-fetch.git && cd html-fetch
 > pip install -r requirements.txt
