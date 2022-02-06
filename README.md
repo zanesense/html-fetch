@@ -1,7 +1,12 @@
-# HTML Fetch
-## _Fetch html source code from a website._
+## Get html source code using a python script!
 
-**Working:**
-uses the 'requests' module to get the html source code and then write it to a text file.
+**Note:** 
+You'll need to edit the proxies.json file and use any http proxies that you have.
 
-<img src='https://i.imgur.com/4AZ5KpK.gif'>
+Go to https://free-proxy-cz/en/ and grab some freebies.
+```
+> git clone https://github.com/zanesense/html-fetch.git && cd html-fetch
+> pip install -r requirements.txt
+> python html.py
+```
+<img src="https://img.shields.io/github/repo-size/zanesense/html-fetch">
